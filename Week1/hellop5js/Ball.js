@@ -5,12 +5,15 @@ constructor(x, y)
 {
   this.x = x;
   this.y = y;
+  c = color((random(255),random(255),random(255),random(255));
+  r = random(5,50);
+
 }
 
 display()
 {
-  fill(random(255),random(255),random(255),random(255));
-  ellipse(this.x, this.y, random(5,50),random(5,50));
+  fill(c);
+  ellipse(this.x, this.y, r,r);
 }
 
 }
