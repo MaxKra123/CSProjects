@@ -42,5 +42,5 @@ function draw()
 function keyPressed()
 {
   if(keyCode == 13) //enter
-    balls.push(new Ball(200,height/2));
+    balls.push(new Ball(mouseX,mouseY));
 }
