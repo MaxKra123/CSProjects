@@ -10,7 +10,7 @@ constructor(x, y)
 display()
 {
   fill(255);
-  ellipse(x, y, 50,50);
+  ellipse(this.x, this.y, 50,50);
 }
 
 }
