@@ -12,7 +12,7 @@ constructor(x, y)
 
 display()
 {
-  fill(c);
+  fill(this.c);
   ellipse(this.x, this.y, this.r, this.r);
 }
 
