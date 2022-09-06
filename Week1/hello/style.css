@@ -1,0 +1,33 @@
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+/*  color: red; */
+    color: #ff00ff;
+    font-size: 2em; /*2 times height of standard font*/
+    text-align: center;
+}
+
+p.one {
+  color: #000;
+  text-align: left;
+  background-color: #fff;
+}
+
+p {
+  background-color: #f00;
+}
+
+p.special {
+  background-color: #0f0;
+  border: 2rem solid;
+  font-size: 20px;
+  color: #00f;
+  text-align: center;
+}
+
+ul.one {
+  background-color: #0f0;
+}
