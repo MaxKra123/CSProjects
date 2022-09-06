@@ -9,8 +9,8 @@ constructor(x, y)
 
 display()
 {
-  fill(255);
-  ellipse(this.x, this.y, 50,50);
+  fill(random(255),random(255),random(255),random(255));
+  ellipse(this.x, this.y, random(5,50),random(5,50));
 }
 
 }
